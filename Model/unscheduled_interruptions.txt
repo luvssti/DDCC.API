@@ -1,0 +1,10 @@
+id			INT	1	Unique identifier for each interruption record.
+interruption_code	NVARCHAR(50)	INT12345	Unique code identifying the interruption event.
+isolation_device	NVARCHAR(100)	Breaker	Device used to isolate the interrupted section (e.g., Breaker, Recloser).
+de_energized_section	NVARCHAR(255)	Section 1	Specific section that was de-energized during the interruption.
+affected_areas		NVARCHAR(255)	Area 1, Area 2	List of areas affected by the interruption.
+feeder_name		NVARCHAR(100)	Feeder A	Name of the feeder supplying the affected area.
+cause_of_interruption	NVARCHAR(255)	Equipment Failure	Primary cause or reason for the interruption.
+interruption_timestamp	DATETIME2	2024-03-25 10:15	Timestamp when the interruption occurred (yyyy-mm-dd hh:mm).
+restored_timestamp	DATETIME2	2024-03-25 14:30	Timestamp when power was restored (yyyy-mm-dd hh:mm).
+remarks			NVARCHAR(255)	Breaker replaced, power restored.	Additional comments or notes related to the interruption.

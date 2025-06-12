@@ -1,0 +1,12 @@
+id			INT	1	Unique identifier for each interruption record.
+interruption_type	NVARCHAR(100)	Planned	Type of interruption (e.g., Planned, Unplanned, Emergency).
+feeder			NVARCHAR(100)	Feeder A	Name or identifier of the affected feeder.
+de_energized_section	NVARCHAR(255)	Section 1	Specific section that was de-energized during the interruption.
+pole_id			NVARCHAR(50)	P12345	Unique identifier of the pole associated with the interruption.
+affected_areas		NVARCHAR(255)	Area 1, Area 2	List of areas affected by the interruption.
+interruption_timestamp	DATETIME2	2024-03-25 10:15	Timestamp of when the interruption occurred (yyyy-mm-dd hh:mm).
+restored_timestamp	DATETIME2	2024-03-25 14:30	Timestamp of when power was restored (yyyy-mm-dd hh:mm).
+purpose			NVARCHAR(255)	Maintenance	Purpose or reason for the interruption.
+log_entry_number	NVARCHAR(50)	LOG123456	Unique log entry number for tracking and reference.
+num_customers_affected	INT	500	Total number of customers affected by the interruption.
+remarks			NVARCHAR(255)	Routine maintenance completed	Additional comments or notes related to the interruption.

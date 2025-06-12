@@ -1,0 +1,35 @@
+public id int { get; set; } //Unique identifier for each record.
+public yr int { get; set; } //Year for which the data is recorded (e.g., 2024).
+public mo int { get; set; } //Month for which the data is recorded (1-12).
+public tot_cust_monthly	int { get; set; } //Total number of consumers for the specified month.
+public ps_tot_cust_int_monthly	int { get; set; } //Total number of power system customer interruptions in the month.
+public ps_avg_int_dur_monthly	double { get; set; } //Average duration (minutes) of each power system interruption.
+public ps_tot_int_dur_monthly	double { get; set; } //Total duration (minutes) of power system interruptions.
+public ps_tot_mom_int_monthly	int { get; set; } //Number of momentary interruptions in the power system.
+public ps_saifi_monthly	double { get; set; } //System Average interruption Frequency Index (SAIFI) for power system.
+public ps_saidi_monthly	double { get; set; } //System Average interruption Duration Index (SAIDI) for power system.
+public ps_maifi_monthly	double { get; set; } //Momentary Average interruption Frequency Index (MAIFI) for power system.
+public ps_caidi_monthly	double { get; set; } //Customer Average interruption Duration Index (CAIDI) for power system.
+public sch_tot_cust_int_monthly	int { get; set; } //Total number of scheduled customer interruptions in the month.
+public sch_tot_int_dur_monthly	double { get; set; } //Total duration (minutes) of scheduled interruptions.
+public sch_avg_int_dur_monthly	double { get; set; } //Average duration (minutes) of each scheduled interruption.
+public sch_tot_mom_int_monthly	int { get; set; } //Number of momentary scheduled interruptions.
+public sch_saifi_monthly	double { get; set; } //SAIFI for scheduled interruptions.
+public sch_saidi_monthly	double { get; set; } //SAIDI for scheduled interruptions.
+public sch_maifi_monthly	double { get; set; } //MAIFI for scheduled interruptions.
+public sch_caidi_monthly	double { get; set; } //CAIDI for scheduled interruptions.
+public uns_tot_cust_int_monthly	int { get; set; } //Total number of unscheduled customer interruptions in the month.
+public uns_tot_int_dur_monthly	double { get; set; } //Total duration (minutes) of unscheduled interruptions.
+public uns_avg_int_dur_monthly	double { get; set; } //Average duration (minutes) of each unscheduled interruption.
+public uns_tot_mom_int_monthly	int { get; set; } //Number of momentary unscheduled interruptions.
+public uns_saifi_monthly	double { get; set; } //SAIFI for unscheduled interruptions.
+public uns_saidi_monthly	double { get; set; } //SAIDI for unscheduled interruptions.
+public uns_maifi_monthly	double { get; set; } //MAIFI for unscheduled interruptions.
+public uns_caidi_monthly	double { get; set; } //CAIDI for unscheduled interruptions.
+public pwr_purch_monthly	double { get; set; } //Total electricity purchased (kWh) during the month.
+public pwr_sales_monthly	double { get; set; } //Total electricity sold (kWh) during the month.
+public sys_loss_monthly	double { get; set; } //Percentage of electricity lost, stored as a decimal (e.g., 20% is stored as 0.20).
+public gen_cost_monthly	double { get; set; } //Monthly cost of electricity generation per unit (e.g., $/kWh).
+public pwr_fact_monthly	double { get; set; } //Average power factor of the system for the month, stored as a decimal (e.g., 0.95 for 95%).
+public load_fact_monthly	double { get; set; } //Ratio of average load to peak load, stored as a decimal (e.g., 0.75 for 75%).
+public demand_monthly		double { get; set; } //Peak electricity demand (kW) recorded during the month.

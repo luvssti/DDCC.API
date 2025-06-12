@@ -1,0 +1,4 @@
+id		INT	1	Unique identifier for each demand record.
+name		NVARCHAR(100)	Grand Total / Station Name / Substation Name	Indicates whether the demand value is for the Grand Total, a specific Station, or a Substation.
+value_kw	FLOAT	500.25	Recorded demand in kilowatts (kW).
+timestamp	DATETIME2	2024-03-25 14:30	Timestamp when the demand was recorded (yyyy-mm-dd hh:mm).

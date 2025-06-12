@@ -1,0 +1,34 @@
+id			INT	0	Unique identifier for each record.
+timestamp		DATETIME2	2024-03-01 12:00	The date and time representing the month-to-date-data data (format: YYYY-MM-DD HH:MM).
+tot_cust_mtd		INT	0	Total number of consumers month-to-date.
+ps_tot_cust_int_mtd	INT	0	Month-to-date total number of power system customer interruptions.
+ps_avg_int_dur_mtd	FLOAT	0	Month-to-date average duration (minutes) of each power system interruption.
+ps_tot_int_dur_mtd	FLOAT	0	Month-to-date total duration (minutes) of power system interruptions.
+ps_tot_mom_int_mtd	INT	0	Month-to-date number of momentary interruptions in the power system.
+ps_saifi_mtd		FLOAT	0.0000	Month-to-date System Average Interruption Frequency Index (SAIFI) for power system.
+ps_saidi_mtd		FLOAT	0.0000	Month-to-date System Average Interruption Duration Index (SAIDI) for power system.
+ps_maifi_mtd		FLOAT	0.0000	Month-to-date Momentary Average Interruption Frequency Index (MAIFI) for power system.
+ps_caidi_mtd		FLOAT	0.0000	Month-to-date Customer Average Interruption Duration Index (CAIDI) for power system.
+sch_tot_cust_int_mtd	INT	0	Month-to-date total number of scheduled customer interruptions.
+sch_tot_int_dur_mtd	FLOAT	0	Month-to-date total duration (minutes) of scheduled interruptions.
+sch_avg_int_dur_mtd	FLOAT	0	Month-to-date average duration (minutes) of each scheduled interruption.
+sch_tot_mom_int_mtd	INT	0	Month-to-date number of momentary scheduled interruptions.
+sch_saifi_mtd		FLOAT	0.0000	Month-to-date SAIFI for scheduled interruptions.
+sch_saidi_mtd		FLOAT	0.0000	Month-to-date SAIDI for scheduled interruptions.
+sch_maifi_mtd		FLOAT	0.0000	Month-to-date MAIFI for scheduled interruptions.
+sch_caidi_mtd		FLOAT	0.0000	Month-to-date CAIDI for scheduled interruptions.
+uns_tot_cust_int_mtd	INT	0	Month-to-date total number of unscheduled customer interruptions.
+uns_tot_int_dur_mtd	FLOAT	0	Month-to-date total duration (minutes) of unscheduled interruptions.
+uns_avg_int_dur_mtd	FLOAT	0	Month-to-date average duration (minutes) of each unscheduled interruption.
+uns_tot_mom_int_mtd	INT	0	Month-to-date number of momentary unscheduled interruptions.
+uns_saifi_mtd		FLOAT	0.0000	Month-to-date SAIFI for unscheduled interruptions.
+uns_saidi_mtd		FLOAT	0.0000	Month-to-date SAIDI for unscheduled interruptions.
+uns_maifi_mtd		FLOAT	0.0000	Month-to-date MAIFI for unscheduled interruptions.
+uns_caidi_mtd		FLOAT	0.0000	Month-to-date CAIDI for unscheduled interruptions.
+pwr_purch_mtd		FLOAT	0.0000	Month-to-date total electricity purchased (kWh).
+pwr_sales_mtd		FLOAT	0.0000	Month-to-date total electricity sold (kWh).
+sys_loss_mtd		FLOAT	0.0000	Month-to-date percentage of electricity lost, stored as a decimal (e.g., 20% is stored as 0.20).
+gen_cost_mtd		FLOAT	0.0000	Month-to-date cost of electricity generation per unit (e.g., $/kWh).
+pwr_fact_mtd		FLOAT	0.0000	Month-to-date average power factor of the system, stored as a decimal (e.g., 0.95 for 95%).
+load_fact_mtd		FLOAT	0.0000	Month-to-date ratio of average load to peak load, stored as a decimal (e.g., 0.75 for 75%).
+demand_mtd		FLOAT	0.0000	Month-to-date peak electricity demand (kW).

@@ -1,0 +1,4 @@
+id			INT	1	Unique identifier for each interruption record.
+alarm_timestamp		DATETIME2	2024-03-25 14:30	The timestamp of when the alarm was triggered (yyyy-mm-dd hh:mm).
+alarm_description	NVARCHAR(255)	BONIFACIO,MWHr3 A/D OVERRANGE CURRENT VAL=32767.00	Detailed description of the alarm event, including location, parameter, and status.
+alarm_level		INT	2	Severity level of the alarm, where higher values indicate greater severity.
